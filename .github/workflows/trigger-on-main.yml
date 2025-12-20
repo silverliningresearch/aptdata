@@ -1,0 +1,16 @@
+name: Trigger on Main Branch Changes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-curl:
+    runs-on: ubuntu-latest
+    container: curlimages/curl:latest
+
+    steps:
+      - name: Trigger Nimbus Gateway Refresh
+        run: |
+          curl -X POST "http://85.9.202.121/refresh?token=CTgdcHwvfldcLUJbipHsfMK5p"
