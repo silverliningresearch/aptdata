@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: Trigger Nimbus Gateway Refresh
         run: |
-          curl -X POST "http://85.9.202.121/refresh?token=CTgdcHwvfldcLUJbipHsfMK5p"
+          curl -X POST "https://85.9.202.121.nip.io/refresh?token=CTgdcHwvfldcLUJbipHsfMK5p" -H "Content-Length: 0"
