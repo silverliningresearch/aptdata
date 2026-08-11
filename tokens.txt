@@ -2,7 +2,8 @@
 # Use * for folder to allow access to all folders
 # Empty start/end time means no restriction
 sk_prod_abc123def456,BRU_PROF,2024-01-01 00:00:00,2025-12-31 23:59:59
-sk_prod_xyz789uvw012,*,2026-01-01 00:00:00,2099-12-31 23:59:59
+sk_prod_xyz789uvw012,BRU_PROF,2026-01-01 00:00:00,2099-12-31 23:59:59
+sk_prod_xyz789uvw013,CAG_AH,2026-01-01 00:00:00,2099-12-31 23:59:59
+sk_prod_xyz789uvw014,CAG_APS,2026-01-01 00:00:00,2099-12-31 23:59:59
 ZmJesuJvBCqREagv,*,2024-01-01 00:00:00,2024-12-31 23:59:59
-test_dshfldsfhdslkfdslf,BRU_PS,2025-12-21 00:00:00,2025-12-31 23:59:59
 Z9SPDnDs4vRxzvQr,*,2025-12-21 00:00:00,2026-01-30 23:59:59
